@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="130dp"
+>
+
+    <ImageView
+            android:layout_width="49dp"
+            android:layout_height="47dp" app:srcCompat="@mipmap/github" android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" android:id="@+id/imageView"
+            android:layout_marginStart="5dp" android:layout_marginTop="5dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp" android:layout_alignParentTop="true" android:layout_marginTop="10dp"
+            android:id="@+id/textView" android:textColor="#000000" android:textStyle="bold"/>
+    <TextView
+            android:text="@string/timeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_marginEnd="20dp"
+            android:layout_alignTop="@+id/textView" android:id="@+id/textView2"/>
+    <Button
+            android:text="@string/go_there"
+            android:layout_width="108dp"
+            android:layout_height="36dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="63dp" android:layout_alignParentTop="true" android:layout_marginTop="80dp"
+            android:id="@+id/button"/>
+    <TextView
+            android:text="@string/xxxxxxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginTop="45dp"
+            android:layout_alignStart="@+id/textView" android:id="@+id/textView3" android:textStyle="bold"
+            android:textColor="#000000"/>
+    <ImageView
+            android:layout_width="55dp"
+            android:layout_height="56dp" app:srcCompat="@mipmap/close" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="53dp" android:id="@+id/imageView2" android:layout_alignTop="@+id/textView3"/>
+</RelativeLayout>

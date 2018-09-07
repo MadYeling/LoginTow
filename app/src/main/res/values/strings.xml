@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">列表框</string>
+    <string name="timeText">营业时间6:00~24:00</string>
+    <string name="go_there">去这里</string>
+    <string name="xxxxxxx">xxxxxxxxxxxxxxxxxx</string>
+    <string name="choose">选择一个停车场</string>
+</resources>
